@@ -44,6 +44,12 @@ Most repos started from a **genuine product problem** I was trying to solve, not
 - **[`squareyards-review-engine`](https://github.com/deepeshgupta12/squareyards-review-engine)**  
   A **review and insights engine** to collect, structure and surface user-generated feedback as a trust layer in any user journey.
 
+- **[`area-converter-ai`](https://github.com/deepeshgupta12/area-converter-ai)**  
+  AI-driven content generation toolkit for Square Yards’ area converter experience.  
+  - Generates landing + child page copy for every unit-to-unit conversion (India + city-aware)  
+  - Outputs Mongo-ready JSON & HTML previews with strict word-length and quality validation  
+  - Batch pipeline from CSV → LLM → validation/regeneration → DB-ready payloads
+
 ### Data & Geo Analytics
 
 - **[`sqy-mumbai-poc`](https://github.com/deepeshgupta12/sqy-mumbai-poc)**  
