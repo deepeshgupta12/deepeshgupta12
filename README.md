@@ -47,7 +47,7 @@ Most repos started from a **genuine product problem** I was trying to solve, not
 - **[`squareyards-review-engine`](https://github.com/deepeshgupta12/squareyards-review-engine)**  
   A **review and insights engine** to collect, structure and surface user-generated feedback as a trust layer in any user journey.
 
-- **[`review-summary-engine`](https://github.com/deepeshgupta12/review-summary-engine)  
+- **[`review-summary-engine`](https://github.com/deepeshgupta12/review-summary-engine)**
   A local-first Review Intelligence pipeline that ingests project reviews and generates **(1) project-wise AI summaries** and **(2) 3 tags per review** to highlight **persona + key USPs**—built to scale to large datasets with **resume + batching**.
 
 - **[`area-converter-ai`](https://github.com/deepeshgupta12/area-converter-ai)**  
