@@ -72,6 +72,13 @@ Most repos started from a **genuine product problem** I was trying to solve, not
 - **[`Hotel Booking Cancellation Model`](https://github.com/deepeshgupta12/hotel-cancellation-model)**
   End-to-end ML pipeline and FastAPI service that predicts hotel booking cancellations, exposes risk buckets, and supports both batch and real-time scoring.
 
+- **[`Smart Kitchen OS`](https://github.com/deepeshgupta12/smart-kitchen-os)**
+  An AI-powered culinary operating system that synchronizes raw inventory management with personalized health intelligence and automated meal planning.
+      - LLM-Powered Recipe Extraction: Leverages GPT-4o-mini to parse unstructured text into Michelin-star culinary data, including descriptive preparation steps and nutritional estimates.
+      - Autonomous Pantry Intelligence: Features a real-time "Inventory Deduction" engine that automatically updates stock levels upon meal completion, integrated with a proactive "Low Stock" replenishment logic.
+      - Dynamic Health Profiling: Implements the Harris-Benedict equation to calculate TDEE and macronutrient goals based on live user metrics (weight, height, activity), tracking consumption progress in real-time.
+      - Full-Stack Architecture: Built with a high-performance FastAPI backend serving a PostgreSQL database, and a responsive Next.js 14 frontend utilizing Lucide-react for intuitive navigation.
+
 ### Portfolio & Personal
 
 - **[`DeepeshKumarGupta`](https://github.com/deepeshgupta12/DeepeshKumarGupta)**  
