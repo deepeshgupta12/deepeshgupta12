@@ -94,7 +94,7 @@ These are the best “walkthrough” repos if you want to understand how I think
 <details>
   <summary><b>Expand</b></summary>
 
-- **[area-converter-ai](https://github.com/<deepeshgupta12/area-converter-ai)**  
+- **[area-converter-ai](https://github.com/deepeshgupta12/area-converter-ai)**  
   Content generation toolkit for area converter experiences: landing + child pages, Mongo-ready JSON, HTML previews, strict word-length validation, and batch pipelines (CSV → generation → validation/regeneration → DB payloads).
 
 - **[smart-kitchen-os](https://github.com/deepeshgupta12/smart-kitchen-os)**  
