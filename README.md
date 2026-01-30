@@ -22,62 +22,20 @@ Most repos start from a real product problem, not a tutorial.
 
 ## Tech I use
 
-FastAPI, Pydantic, Postgres/Mongo, Elastic-style search patterns, vector search (where needed), Playwright/httpx, background jobs, Docker, and pragmatic evaluation/guardrails for LLM outputs.
+Data Science, Machine Learning, FastAPI, Pydantic, Postgres/Mongo, Elastic-style search patterns, vector search (where needed), Playwright/httpx, background jobs, Docker, and pragmatic evaluation/guardrails for LLM outputs.
 
 ---
 
-## Start here (recommended)
-
 These are the best “walkthrough” repos if you want to understand how I think and build:
 
-- **[stalled-project-news](https://github.com/deepeshgupta12/stalled-project-news)**  
-  Search-first pipeline that generates **evidence-backed** stalled/delayed project updates (JSON + HTML). Built with strict source whitelisting, snippet-level evidence mapping, dedupe/timeline generation, and citation coverage verification. Designed for zero-hallucination outputs and buyer/investor-readable narratives.
-
-- **[review-summary-engine](https://github.com/deepeshgupta12/review-summary-engine)**  
-  Local-first Review Intelligence pipeline that ingests large review datasets and produces:  
-  (1) **project-wise AI summaries** and (2) **per-review tags** (persona + USPs). Built for resume/batching, deterministic outputs, and scale-friendly processing patterns.
+### Computer Vision, Applied ML, Data Science and AI/LLM/RAG/Vector principles:
 
 - **[movie-recommendation-mvp](https://github.com/deepeshgupta12/movie-recommendation-mvp)**  
   Local-first, production-style recommender: hybrid candidate retrieval (popularity + item-item + ALS + genre signals), time-decay-aware feature store, trained ranker, FastAPI serving, and a Streamlit UI with posters + feedback-driven personalization. End-to-end demo of discovery → ranking → iteration loops.
 
----
+- **[smart-kitchen-os](https://github.com/deepeshgupta12/smart-kitchen-os)**  
+  AI-powered culinary operating system combining inventory management + health intelligence + automated meal planning. Includes recipe extraction to structured data, pantry deduction logic, TDEE/macros profiling, and a FastAPI + Postgres backend with a Next.js frontend.
 
-## Featured projects by theme
-
-### AI for Discovery & Personalization (Marketplace systems)
-- **[squareyards-rec-engine](https://github.com/deepeshgupta12/squareyards-rec-engine)**  
-  Experiments for recommendation-driven discovery in marketplace journeys — ranking signals, shortlist logic, segment-driven recommendations, and practical “what should the user see next?” widgets.
-
-- **[sqy-dse-llm](https://github.com/deepeshgupta12/sqy-dse-llm)**  
-  LLM-driven enhancements for catalog exploration — making search/filter-heavy experiences feel guided and conversational. Focused on user intent capture, contextual nudges, structured outputs, and reliability constraints.
-
----
-
-### Evidence-Bound Real-Estate Intelligence
-- **[stalled-project-news](https://github.com/deepeshgupta12/stalled-project-news)**  
-  Evidence-first generation system for project updates with strict whitelisting + citations. Built to behave like a “trust layer” where every claim is traceable to stored evidence snippets.
-
----
-
-### LLM-Powered Content & Intelligence (Guardrailed generation)
-- **[sy-pdp-content-llm](https://github.com/deepeshgupta12/sy-pdp-content-llm)**  
-  High-intent page content generation workflows with guardrails for consistency, quality, and SEO hygiene. Emphasis on structured outputs, reusable templates, and controllable tone across large page inventories.
-
-- **[sqy-locality-llm](https://github.com/deepeshgupta12/sqy-locality-llm)**  
-  Context-aware locality content + FAQs to help users make sense of complex real-estate choices. Focus on grounded explanations, structured FAQ generation, and locality-level narrative consistency.
-
-- **[squareyards-review-engine](https://github.com/deepeshgupta12/squareyards-review-engine)**  
-  Trust-layer engine to collect, structure, and surface user-generated feedback. Built around turning messy reviews into decision-ready insights (themes, pros/cons, persona-fit, and credibility signals).
-
----
-
-### Data & Geo Analytics (Decision intelligence)
-- **[sqy-mumbai-poc](https://github.com/deepeshgupta12/sqy-mumbai-poc)**  
-  POC for a geo-analytics/data intelligence platform combining maps + time-series metrics + filters to answer “where should we focus?” questions. Emphasis on fast exploration, scalable metric layering, and decision-friendly slices.
-
----
-
-### Computer Vision & Applied ML
 - **[realestate-image-classifier](https://github.com/deepeshgupta12/realestate-image-classifier)**  
   Image classification pipeline to categorize and optimize thumbnails (rooms, amenities, visuals) to improve engagement in visual catalogs. Includes dataset strategy, labeling approach, model training, and inference patterns.
 
@@ -87,29 +45,51 @@ These are the best “walkthrough” repos if you want to understand how I think
 - **[hotel-booking-cancellation-model](https://github.com/deepeshgupta12/hotel-booking-cancellation-model)**  
   End-to-end ML pipeline + FastAPI service that predicts booking cancellations, exposes risk buckets, and supports both batch and real-time scoring.
 
+- **[youtube-learning-copilot](https://github.com/deepeshgupta12/youtube-learning-copilot)**
+  Turn any YouTube video into a structured study pack: ingest the transcript, then generate a summary, key takeaways, chapters, flashcards, and a quiz.
+
 ---
 
-## More projects
+### AI for Discovery & Personalization (Marketplace systems):
+- **[squareyards-rec-engine](https://github.com/deepeshgupta12/squareyards-rec-engine)**  
+  Experiments for recommendation-driven discovery in marketplace journeys — ranking signals, shortlist logic, segment-driven recommendations, and practical “what should the user see next?” widgets.
 
-<details>
-  <summary><b>Expand</b></summary>
+---
+
+### Data & Geo Analytics (Decision intelligence):
+- **[sqy-mumbai-poc](https://github.com/deepeshgupta12/sqy-mumbai-poc)**  
+  POC for a geo-analytics/data intelligence platform combining maps + time-series metrics + filters to answer “where should we focus?” questions. Emphasis on fast exploration, scalable metric layering, and decision-friendly slices.
+
+---
+
+### LLM-Powered Content & Intelligence (Guardrailed generation):
+- **[sy-pdp-content-llm](https://github.com/deepeshgupta12/sy-pdp-content-llm)**  
+  High-intent page content generation workflows with guardrails for consistency, quality, and SEO hygiene. Emphasis on structured outputs, reusable templates, and controllable tone across large page inventories.
+
+- **[sqy-locality-llm](https://github.com/deepeshgupta12/sqy-locality-llm)**  
+  Context-aware locality content + FAQs to help users make sense of complex real-estate choices. Focus on grounded explanations, structured FAQ generation, and locality-level narrative consistency.
+
+- **[squareyards-review-engine](https://github.com/deepeshgupta12/squareyards-review-engine)**  
+  Trust-layer engine to collect, structure, and surface user-generated feedback. Built around turning messy reviews into decision-ready insights (themes, pros/cons, persona-fit, and credibility signals).
+
+- **[review-summary-engine](https://github.com/deepeshgupta12/review-summary-engine)**  
+  Local-first Review Intelligence pipeline that ingests large review datasets and produces:  
+  (1) **project-wise AI summaries** and (2) **per-review tags** (persona + USPs). Built for resume/batching, deterministic outputs, and scale-friendly processing patterns.
+
+- **[stalled-project-news](https://github.com/deepeshgupta12/stalled-project-news)**  
+  Search-first pipeline that generates **evidence-backed** stalled/delayed project updates (JSON + HTML). Built with strict source whitelisting, snippet-level evidence mapping, dedupe/timeline generation, and citation coverage verification. Designed for zero-hallucination outputs and buyer/investor-readable narratives.
 
 - **[area-converter-ai](https://github.com/deepeshgupta12/area-converter-ai)**  
   Content generation toolkit for area converter experiences: landing + child pages, Mongo-ready JSON, HTML previews, strict word-length validation, and batch pipelines (CSV → generation → validation/regeneration → DB payloads).
 
-- **[smart-kitchen-os](https://github.com/deepeshgupta12/smart-kitchen-os)**  
-  AI-powered culinary operating system combining inventory management + health intelligence + automated meal planning. Includes recipe extraction to structured data, pantry deduction logic, TDEE/macros profiling, and a FastAPI + Postgres backend with a Next.js frontend.
-
-- **[DeepeshKumarGupta](https://github.com/deepeshgupta12/DeepeshKumarGupta)**  
-  Personal portfolio + case studies + selected product writing and experiments.
-
-</details>
+- **[sqy-dse-llm](https://github.com/deepeshgupta12/sqy-dse-llm)**  
+  LLM-driven enhancements for catalog exploration — making search/filter-heavy experiences feel guided and conversational. Focused on user intent capture, contextual nudges, structured outputs, and reliability constraints.
 
 ---
 
 ## How I work
 
-- Translate vague business asks into **clear product problems + success metrics**
+- Translate vague Product ideas and business asks into **clear product problems + success metrics**
 - Partner deeply with engineering/design/data; high technical fluency
 - Prefer **evidence over vibes**: evaluation, guardrails, and measurable outcomes
 - Use AI and automation as leverage — not as decoration
@@ -118,7 +98,8 @@ These are the best “walkthrough” repos if you want to understand how I think
 
 ## Currently exploring
 
-- RAG systems and evaluation frameworks for LLM-driven products
+- RAG and vector systems and evaluation frameworks for LLM-driven products
+- Heavy Data Science and ML principle-driven products
 - Engagement-based thumbnail and content optimization
 - Geo & data intelligence for multi-location decision-making
 - Small, composable services teams can embed into existing stacks
