@@ -54,6 +54,9 @@ These are the best “walkthrough” repos if you want to understand how I think
 - **[squareyards-rec-engine](https://github.com/deepeshgupta12/squareyards-rec-engine)**  
   Experiments for recommendation-driven discovery in marketplace journeys — ranking signals, shortlist logic, segment-driven recommendations, and practical “what should the user see next?” widgets.
 
+- **[personal-finance-copilot](https://github.com/deepeshgupta12/personal-finance-copilot)**
+  A local-first, AI-assisted personal finance dashboard for young professionals. This project ingests mock bank/UPI/credit card data, auto-categorises spending, detects “bad patterns”, and generates a plain-language money story for each month – plus concrete actions to try next month. Built with FastAPI, SQLite, Pandas, scikit-learn, Jinja2, and the OpenAI API.
+
 ---
 
 ### Data & Geo Analytics (Decision intelligence):
