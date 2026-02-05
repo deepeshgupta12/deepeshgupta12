@@ -46,8 +46,8 @@ These are the best “walkthrough” repos if you want to understand how I think
   End-to-end ML pipeline + FastAPI service that predicts booking cancellations, exposes risk buckets, and supports both batch and real-time scoring.
 
 - **[youtube-learning-copilot](https://github.com/deepeshgupta12/youtube-learning-copilot)**
-  Turn any YouTube video into a structured study pack: ingest the transcript, then generate a summary, key takeaways, chapters, flashcards, and a quiz.
-
+  A grounded, transcript-first study companion that turns any YouTube video into a structured learning pack — with searchable chunks, chapter flows, flashcards, quizzes, progress tracking, and citation-backed Q&A.
+  
 ---
 
 ### AI for Discovery & Personalization (Marketplace systems):
