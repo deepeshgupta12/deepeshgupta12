@@ -47,6 +47,9 @@ These are the best “walkthrough” repos if you want to understand how I think
 
 - **[youtube-learning-copilot](https://github.com/deepeshgupta12/youtube-learning-copilot)**
   A grounded, transcript-first study companion that turns any YouTube video into a structured learning pack — with searchable chunks, chapter flows, flashcards, quizzes, progress tracking, and citation-backed Q&A.
+
+- **[used-car-price-prediction](https://github.com/deepeshgupta12/used-car-price-prediction)**
+  UCPP is a local-first, Docker-friendly Used Car Price Prediction service for two markets: India (IN) and United States (US). It ships with a clean preprocessing pipeline, persisted ML artifacts, and a FastAPI server exposing simple single and batch prediction endpoints.
   
 ---
 
