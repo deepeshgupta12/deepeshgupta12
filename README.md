@@ -22,7 +22,7 @@ Most repos start from a real product problem, not a tutorial.
 
 ## Tech I use
 
-Data Science, Machine Learning, FastAPI, Pydantic, Postgres/Mongo, Elastic-style search patterns, vector search (where needed), Playwright/httpx, background jobs, Docker, and pragmatic evaluation/guardrails for LLM outputs.
+Data Science, Machine Learning, FastAPI, Pydantic, Postgres/Mongo, Python, Typescript, HTML and CSS, Elastic-style search patterns, vector search (where needed), Playwright/httpx, background jobs, Docker, and pragmatic evaluation/guardrails for LLM outputs.
 
 ---
 
@@ -63,8 +63,8 @@ These are the best “walkthrough” repos if you want to understand how I think
 ---
 
 ### Data & Geo Analytics (Decision intelligence):
-- **[sqy-mumbai-poc](https://github.com/deepeshgupta12/sqy-mumbai-poc)**  
-  POC for a geo-analytics/data intelligence platform combining maps + time-series metrics + filters to answer “where should we focus?” questions. Emphasis on fast exploration, scalable metric layering, and decision-friendly slices.
+- **[geo-map-analytics](https://github.com/deepeshgupta12/geo-map-analytics)**
+  A lightweight, developer-friendly geospatial analytics UI that renders city → micromarket → locality → roads → projects layers from Mapbox vector tiles, overlays monthly metrics as a dynamic choropleth, and supports A/B pinned comparisons + exports (PNG + CSV) + shareable URLs.
 
 ---
 
