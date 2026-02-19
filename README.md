@@ -91,6 +91,9 @@ These are the best “walkthrough” repos if you want to understand how I think
 - **[sqy-dse-llm](https://github.com/deepeshgupta12/sqy-dse-llm)**  
   LLM-driven enhancements for catalog exploration — making search/filter-heavy experiences feel guided and conversational. Focused on user intent capture, contextual nudges, structured outputs, and reliability constraints.
 
+- **[Automated-Locality-Report-Engine](https://github.com/deepeshgupta12/Automated-Locality-Report-Engine)**
+  Generate a full locality report (data → charts → LLM narratives → PDF + Lovable UI) from two JSON feeds (Locality + Property Rates). Built to be repeatable for any locality (e.g., Andheri East ✅, Malad East ✅) without code changes — just swap input JSONs and the polygon/map asset.
+
 ---
 
 ## How I work
