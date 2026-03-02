@@ -53,6 +53,13 @@ These are the best “walkthrough” repos if you want to understand how I think
   
 ---
 
+### Agentic Product Engineering (AI Systems & Tooling)
+
+- **[pm-agent-os](https://github.com/deepeshgupta12/pm-agent-os)**
+  Local-first PM agent OS with pipeline templates + pipeline runs (Discovery → Strategy → PRD), step-level retrieval (RAG) with evidence batch scoping, run console (retrieval preview/regenerate), and pipeline UI with step statuses, latest artifacts, and scoped RAG debug deep-links.
+
+---
+
 ### AI for Discovery & Personalization (Marketplace systems):
 - **[squareyards-rec-engine](https://github.com/deepeshgupta12/squareyards-rec-engine)**  
   Experiments for recommendation-driven discovery in marketplace journeys — ranking signals, shortlist logic, segment-driven recommendations, and practical “what should the user see next?” widgets.
