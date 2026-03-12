@@ -67,7 +67,7 @@ Most repos start from a real product problem — not a tutorial.
 ### Agentic Product Engineering (AI Systems & Tooling)
 
 - **[pm-agent-os](https://github.com/deepeshgupta12/pm-agent-os)**  
-  Local-first PM agent OS: pipeline templates + pipeline runs (Discovery → Strategy → PRD), step-level retrieval (RAG) with evidence scoping, run console (retrieval preview/regenerate), pipeline UI with step statuses, artifacts, and scoped debug deep-links.
+  PM Agent OS is a full-stack platform where specialised AI agents write product documents grounded in your team's actual evidence — PRDs, strategy memos, problem briefs, launch plans, and more. Agents can be chained into multi-step pipelines. Every artifact goes through a review and approval workflow before publishing. A Policy Center enforces governance on what knowledge sources agents can use, with PII masking and an immutable audit log of every decision the system makes.
 
 ---
 
