@@ -108,9 +108,9 @@ Most repos start from a real product problem — not a tutorial.
 - **[area-converter-ai](https://github.com/deepeshgupta12/area-converter-ai)**  
   Content generation toolkit for area converter experiences: landing + child pages, Mongo-ready JSON, HTML previews, strict length validation, batch pipelines (CSV → generation → validation/regeneration → DB payloads).
 
-- **[sqy-dse-llm](https://github.com/deepeshgupta12/sqy-dse-llm)**  
-  LLM enhancements for catalog exploration: intent capture, contextual nudges, structured outputs, reliability constraints for search/filter-heavy experiences.
-
+- **[seo-content-generation-system](https://github.com/deepeshgupta12/seo-content-generation-system)**  
+  A programmatic SEO content engine for Square Yards resale listing pages. The system ingests raw datacenter JSON exports, performs deep keyword research via DataForSEO, and uses OpenAI to produce publication-ready SEO drafts in multiple formats — all through a REST API with a React-based review workbench UI.
+  
 - **[Automated-Locality-Report-Engine](https://github.com/deepeshgupta12/Automated-Locality-Report-Engine)**  
   Generates full locality reports (data → charts → LLM narratives → PDF + Lovable UI) from two JSON feeds (Locality + Property Rates). Repeatable for any locality without code changes — swap inputs + polygon/map asset.
 
