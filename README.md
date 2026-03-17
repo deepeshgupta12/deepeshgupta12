@@ -53,7 +53,7 @@ Most repos start from a real product problem — not a tutorial.
 - **[brain-tumor-ai](https://github.com/deepeshgupta12/brain-tumor-ai)**  
   Applied CV project on medical imaging + tumor detection to deepen CV workflows, interpretation patterns, and responsible handling for sensitive domains.
 
-- **[hotel-booking-cancellation-model](https://github.com/deepeshgupta12/hotel-booking-cancellation-model)**  
+- **[hotel-booking-cancellation-model](https://github.com/deepeshgupta12/hotel-cancellation-model)**  
   End-to-end ML pipeline + FastAPI service predicting booking cancellations, exposing risk buckets, with batch + real-time scoring.
 
 - **[youtube-learning-copilot](https://github.com/deepeshgupta12/youtube-learning-copilot)**  
