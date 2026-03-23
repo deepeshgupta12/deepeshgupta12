@@ -69,6 +69,9 @@ Most repos start from a real product problem — not a tutorial.
 - **[pm-agent-os](https://github.com/deepeshgupta12/pm-agent-os)**  
   PM Agent OS is a full-stack platform where specialised AI agents write product documents grounded in your team's actual evidence — PRDs, strategy memos, problem briefs, launch plans, and more. Agents can be chained into multi-step pipelines. Every artifact goes through a review and approval workflow before publishing. A Policy Center enforces governance on what knowledge sources agents can use, with PII masking and an immutable audit log of every decision the system makes.
 
+- **[AI-Mental-Wellbeing-Copilot-with-Safety-Governed-Multi-Agent-Architecture](https://github.com/deepeshgupta12/AI-Mental-Wellbeing-Copilot-with-Safety-Governed-Multi-Agent-Architecture)**
+  A production-grade AI mental health support platform built on a 27-agent orchestration pipeline with safety-first design, enterprise governance, and personalized memory systems. The platform combines LangGraph-driven agent workflows, a FastAPI async backend, and a modern Next.js React frontend to deliver empathetic, context-aware mental wellbeing assistance with robust crisis detection and human oversight.
+
 ---
 
 ### AI for Discovery & Personalization (Marketplace systems)
