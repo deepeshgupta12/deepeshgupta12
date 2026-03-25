@@ -69,13 +69,13 @@ pytest-style tests · contract tests for APIs · schema validation tests · gold
 
 | Repo | What It Is |
 |------|------------|
-| [**movie-recommendation-mvp**](https://github.com/Deepesh-vendoti/movie-recommendation-mvp) | Local-first, production-style recommender: hybrid candidate retrieval (popularity + item-item + ALS + genre signals), time-decay-aware feature store, trained ranker, FastAPI serving, Streamlit UI with posters + feedback-driven personalization. End-to-end: discovery → ranking → iteration. |
-| [**smart-kitchen-os**](https://github.com/Deepesh-vendoti/smart-kitchen-os) | Culinary OS combining inventory + health intelligence + automated meal planning: recipe extraction to structured data, pantry deduction logic, TDEE/macros profiling, FastAPI + Postgres backend, Next.js frontend. |
-| [**realestate-image-classifier**](https://github.com/Deepesh-vendoti/realestate-image-classifier) | Image classification pipeline to categorize/optimize thumbnails (rooms, amenities, visuals) for better engagement in visual catalogs. Includes dataset strategy, labeling approach, training, and inference patterns. |
-| [**brain-tumor-ai**](https://github.com/Deepesh-vendoti/brain-tumor-ai) | Applied CV project on medical imaging + tumor detection to deepen CV workflows, interpretation patterns, and responsible handling for sensitive domains. |
-| [**hotel-booking-cancellation-model**](https://github.com/Deepesh-vendoti/hotel-booking-cancellation-model) | End-to-end ML pipeline + FastAPI service predicting booking cancellations, exposing risk buckets, with batch + real-time scoring. |
-| [**youtube-learning-copilot**](https://github.com/Deepesh-vendoti/youtube-learning-copilot) | Transcript-first study companion: searchable chunks, chapter flows, flashcards/quizzes, progress tracking, and citation-backed Q&A. |
-| [**used-car-price-prediction**](https://github.com/Deepesh-vendoti/used-car-price-prediction) | Local-first, Docker-friendly Used Car Price Prediction service for India (IN) + United States (US) with clean preprocessing, persisted artifacts, and FastAPI endpoints (single + batch). |
+| [**movie-recommendation-mvp**](https://github.com/deepeshgupta12/movie-recommendation-mvp) | Local-first, production-style recommender: hybrid candidate retrieval (popularity + item-item + ALS + genre signals), time-decay-aware feature store, trained ranker, FastAPI serving, Streamlit UI with posters + feedback-driven personalization. End-to-end: discovery → ranking → iteration. |
+| [**smart-kitchen-os**](https://github.com/deepeshgupta12/smart-kitchen-os) | Culinary OS combining inventory + health intelligence + automated meal planning: recipe extraction to structured data, pantry deduction logic, TDEE/macros profiling, FastAPI + Postgres backend, Next.js frontend. |
+| [**realestate-image-classifier**](https://github.com/deepeshgupta12/realestate-image-classifier) | Image classification pipeline to categorize/optimize thumbnails (rooms, amenities, visuals) for better engagement in visual catalogs. Includes dataset strategy, labeling approach, training, and inference patterns. |
+| [**brain-tumor-ai**](https://github.com/deepeshgupta12/brain-tumor-ai) | Applied CV project on medical imaging + tumor detection to deepen CV workflows, interpretation patterns, and responsible handling for sensitive domains. |
+| [**hotel-booking-cancellation-model**](https://github.com/deepeshgupta12/hotel-booking-cancellation-model) | End-to-end ML pipeline + FastAPI service predicting booking cancellations, exposing risk buckets, with batch + real-time scoring. |
+| [**youtube-learning-copilot**](https://github.com/deepeshgupta12/youtube-learning-copilot) | Transcript-first study companion: searchable chunks, chapter flows, flashcards/quizzes, progress tracking, and citation-backed Q&A. |
+| [**used-car-price-prediction**](https://github.com/deepeshgupta12/used-car-price-prediction) | Local-first, Docker-friendly Used Car Price Prediction service for India (IN) + United States (US) with clean preprocessing, persisted artifacts, and FastAPI endpoints (single + batch). |
 
 ---
 
@@ -85,8 +85,8 @@ pytest-style tests · contract tests for APIs · schema validation tests · gold
 
 | Repo | What It Is |
 |------|------------|
-| [**pm-agent-os**](https://github.com/Deepesh-vendoti/pm-agent-os) | Full-stack agentic platform where specialised AI agents write product documents grounded in your team's actual evidence — PRDs, strategy memos, problem briefs, launch plans, and more. Agents are chained into multi-step pipelines with a review + approval workflow before publishing. A Policy Center enforces governance on what knowledge sources agents can use, with PII masking and an immutable audit log of every decision the system makes. |
-| [**AI-Mental-Wellbeing-Copilot-with-Safety-Governed-Multi-Agent-Architecture**](https://github.com/Deepesh-vendoti/AI-Mental-Wellbeing-Copilot-with-Safety-Governed-Multi-Agent-Architecture) | Production-grade AI mental health support platform built on a **27-agent orchestration pipeline** with safety-first design, enterprise governance, and personalized memory systems. Combines LangGraph-driven agent workflows, a FastAPI async backend, and a modern Next.js React frontend to deliver empathetic, context-aware mental wellbeing assistance with robust crisis detection and human oversight. |
+| [**pm-agent-os**](https://github.com/deepeshgupta12/pm-agent-os) | Full-stack agentic platform where specialised AI agents write product documents grounded in your team's actual evidence — PRDs, strategy memos, problem briefs, launch plans, and more. Agents are chained into multi-step pipelines with a review + approval workflow before publishing. A Policy Center enforces governance on what knowledge sources agents can use, with PII masking and an immutable audit log of every decision the system makes. |
+| [**AI-Mental-Wellbeing-Copilot-with-Safety-Governed-Multi-Agent-Architecture**](https://github.com/deepeshgupta12/AI-Mental-Wellbeing-Copilot-with-Safety-Governed-Multi-Agent-Architecture) | Production-grade AI mental health support platform built on a **27-agent orchestration pipeline** with safety-first design, enterprise governance, and personalized memory systems. Combines LangGraph-driven agent workflows, a FastAPI async backend, and a modern Next.js React frontend to deliver empathetic, context-aware mental wellbeing assistance with robust crisis detection and human oversight. |
 
 ---
 
@@ -94,8 +94,8 @@ pytest-style tests · contract tests for APIs · schema validation tests · gold
 
 | Repo | What It Is |
 |------|------------|
-| [**squareyards-rec-engine**](https://github.com/Deepesh-vendoti/squareyards-rec-engine) | Experiments for recommendation-driven discovery: ranking signals, shortlist logic, segment-driven recs, and practical "what should the user see next?" widgets. |
-| [**personal-finance-copilot**](https://github.com/Deepesh-vendoti/personal-finance-copilot) | Local-first AI-assisted personal finance dashboard: ingests mock bank/UPI/credit card data, auto-categorizes spending, detects bad patterns, and generates a plain-language monthly money story + next actions. Built with FastAPI, SQLite, Pandas, scikit-learn, Jinja2, and the OpenAI API. |
+| [**squareyards-rec-engine**](https://github.com/deepeshgupta12/squareyards-rec-engine) | Experiments for recommendation-driven discovery: ranking signals, shortlist logic, segment-driven recs, and practical "what should the user see next?" widgets. |
+| [**personal-finance-copilot**](https://github.com/deepeshgupta12/personal-finance-copilot) | Local-first AI-assisted personal finance dashboard: ingests mock bank/UPI/credit card data, auto-categorizes spending, detects bad patterns, and generates a plain-language monthly money story + next actions. Built with FastAPI, SQLite, Pandas, scikit-learn, Jinja2, and the OpenAI API. |
 
 ---
 
@@ -103,7 +103,7 @@ pytest-style tests · contract tests for APIs · schema validation tests · gold
 
 | Repo | What It Is |
 |------|------------|
-| [**geo-map-analytics**](https://github.com/Deepesh-vendoti/geo-map-analytics) | Developer-friendly geospatial analytics UI: city → micromarket → locality → roads → projects from Mapbox vector tiles, monthly metrics choropleths, pinned A/B comparisons, exports (PNG + CSV), shareable URLs. |
+| [**geo-map-analytics**](https://github.com/deepeshgupta12/geo-map-analytics) | Developer-friendly geospatial analytics UI: city → micromarket → locality → roads → projects from Mapbox vector tiles, monthly metrics choropleths, pinned A/B comparisons, exports (PNG + CSV), shareable URLs. |
 
 ---
 
@@ -111,14 +111,14 @@ pytest-style tests · contract tests for APIs · schema validation tests · gold
 
 | Repo | What It Is |
 |------|------------|
-| [**sy-pdp-content-llm**](https://github.com/Deepesh-vendoti/sy-pdp-content-llm) | High-intent page content generation with guardrails for consistency, quality, and SEO hygiene: structured outputs, reusable templates, controllable tone at scale. |
-| [**sqy-locality-llm**](https://github.com/Deepesh-vendoti/sqy-locality-llm) | Context-aware locality content + FAQs for real-estate decisions: grounded explanations, structured FAQ generation, locality-level narrative consistency. |
-| [**squareyards-review-engine**](https://github.com/Deepesh-vendoti/squareyards-review-engine) | Trust-layer engine to collect, structure, and surface user feedback into decision-ready insights (themes, pros/cons, persona-fit, credibility signals). |
-| [**review-summary-engine**](https://github.com/Deepesh-vendoti/review-summary-engine) | Review Intelligence pipeline: ingests large datasets and produces (1) project-wise summaries and (2) per-review tags (persona + USPs). Built for deterministic outputs, batching/resume, and scale-friendly processing. |
-| [**stalled-project-news**](https://github.com/Deepesh-vendoti/stalled-project-news) | Search-first pipeline generating evidence-backed stalled/delayed project updates (JSON + HTML): strict source whitelisting, snippet-level evidence mapping, dedupe/timeline generation, citation coverage verification. Designed for zero-hallucination narratives. |
-| [**area-converter-ai**](https://github.com/Deepesh-vendoti/area-converter-ai) | Content generation toolkit for area converter experiences: landing + child pages, Mongo-ready JSON, HTML previews, strict length validation, batch pipelines (CSV → generation → validation/regeneration → DB payloads). |
-| [**seo-content-generation-system**](https://github.com/Deepesh-vendoti/seo-content-generation-system) | Programmatic SEO content engine for Square Yards resale listing pages. Ingests raw datacenter JSON exports, performs deep keyword research via DataForSEO, and uses OpenAI to produce publication-ready SEO drafts in multiple formats — all through a REST API with a React-based review workbench UI. |
-| [**Automated-Locality-Report-Engine**](https://github.com/Deepesh-vendoti/Automated-Locality-Report-Engine) | Generates full locality reports (data → charts → LLM narratives → PDF + Lovable UI) from two JSON feeds (Locality + Property Rates). Repeatable for any locality without code changes — swap inputs + polygon/map asset. |
+| [**sy-pdp-content-llm**](https://github.com/deepeshgupta12/sy-pdp-content-llm) | High-intent page content generation with guardrails for consistency, quality, and SEO hygiene: structured outputs, reusable templates, controllable tone at scale. |
+| [**sqy-locality-llm**](https://github.com/deepeshgupta12/sqy-locality-llm) | Context-aware locality content + FAQs for real-estate decisions: grounded explanations, structured FAQ generation, locality-level narrative consistency. |
+| [**squareyards-review-engine**](https://github.com/deepeshgupta12/squareyards-review-engine) | Trust-layer engine to collect, structure, and surface user feedback into decision-ready insights (themes, pros/cons, persona-fit, credibility signals). |
+| [**review-summary-engine**](https://github.com/deepeshgupta12/review-summary-engine) | Review Intelligence pipeline: ingests large datasets and produces (1) project-wise summaries and (2) per-review tags (persona + USPs). Built for deterministic outputs, batching/resume, and scale-friendly processing. |
+| [**stalled-project-news**](https://github.com/deepeshgupta12/stalled-project-news) | Search-first pipeline generating evidence-backed stalled/delayed project updates (JSON + HTML): strict source whitelisting, snippet-level evidence mapping, dedupe/timeline generation, citation coverage verification. Designed for zero-hallucination narratives. |
+| [**area-converter-ai**](https://github.com/deepeshgupta12/area-converter-ai) | Content generation toolkit for area converter experiences: landing + child pages, Mongo-ready JSON, HTML previews, strict length validation, batch pipelines (CSV → generation → validation/regeneration → DB payloads). |
+| [**seo-content-generation-system**](https://github.com/deepeshgupta12/seo-content-generation-system) | Programmatic SEO content engine for Square Yards resale listing pages. Ingests raw datacenter JSON exports, performs deep keyword research via DataForSEO, and uses OpenAI to produce publication-ready SEO drafts in multiple formats — all through a REST API with a React-based review workbench UI. |
+| [**Automated-Locality-Report-Engine**](https://github.com/deepeshgupta12/Automated-Locality-Report-Engine) | Generates full locality reports (data → charts → LLM narratives → PDF + Lovable UI) from two JSON feeds (Locality + Property Rates). Repeatable for any locality without code changes — swap inputs + polygon/map asset. |
 
 ---
 
