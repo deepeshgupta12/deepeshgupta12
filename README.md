@@ -4,7 +4,7 @@
 
 6+ years across **B2B · B2C · D2C · B2B2C** — marketplaces, data platforms, and internal tools. I turn messy, ambiguous problem spaces into crisp product bets with success metrics, then prototype the fastest path to *"does this work?"* before scaling.
 
-**Core focus:** agentic AI systems · multi-agent orchestration · marketplace discovery · real-estate intelligence · evidence-grounded LLM systems (with evals) · recommendation engines · geo/data analytics
+**Core focus:** agentic AI systems · multi-agent orchestration · marketplace discovery · real-estate intelligence · evidence-grounded LLM systems (with evals) · recommendation engines · geo/data analytics · pricing engines · consumer pain intelligence
 
 ---
 
@@ -14,6 +14,7 @@ A mix of:
 - **Agentic AI systems** — multi-agent pipelines, orchestrated workflows, safety governance, and autonomous task execution
 - **Production-minded prototypes** — projects I'd confidently harden and plug into a real system
 - **AI/ML systems** — LLM workflows, recommender stacks, applied ML/CV, and evaluation tooling
+- **Real estate intelligence** — pricing engines, pain point research, geo analytics, and content systems purpose-built for the Indian property market
 - **POCs & sandboxes** — quick experiments to validate hypotheses before engineering investment
 
 Most repos start from a **real product problem** — not a tutorial.
@@ -26,19 +27,22 @@ Most repos start from a **real product problem** — not a tutorial.
 FastAPI · Pydantic v2 · async patterns · dependency injection · structured error handling · request/response contracts · pagination · idempotency · service-first design
 
 **Data stores**
-Postgres + pgvector (embeddings, similarity search, hybrid retrieval) · MongoDB · SQLite (local-first prototypes, snapshot-driven pipelines)
+Postgres + pgvector (embeddings, similarity search, hybrid retrieval) · MongoDB · SQLite (local-first prototypes, snapshot-driven pipelines) · Alembic migrations
 
 **Retrieval & search**
-Elastic-style search patterns (filters, faceting, ranking) · lexical + semantic retrieval · hybrid strategies · chunking · reranking · thresholding + refusal conditions
+Elastic-style search patterns (filters, faceting, ranking) · lexical + semantic retrieval · hybrid strategies · chunking · reranking · thresholding + refusal conditions · pgvector cosine similarity
 
 **Agentic AI systems**
 LangGraph multi-agent orchestration · agent role specialisation · inter-agent handoffs · safety governance layers · crisis detection pipelines · policy centers · PII masking · audit logging · human-in-the-loop oversight · memory systems (short-term + long-term)
 
 **LLM systems (grounded + reliable)**
-RAG with evidence snippets · citation-first answers · structured outputs (JSON schemas) · prompt versioning · guardrails (hallucination control, refusal flows) · eval harnesses (offline checks + spot QA) · "no-claim-without-evidence" pipelines
+RAG with evidence snippets · citation-first answers · structured outputs (JSON schemas) · prompt versioning · guardrails (hallucination control, refusal flows) · eval harnesses (offline checks + spot QA) · "no-claim-without-evidence" pipelines · multi-source intelligence pipelines
+
+**Pricing & analytical engines**
+Six-factor data-driven pricing models · forward projection with scenario analysis (bear/base/bull) · sensitivity analysis across key drivers · confidence scoring · factor contribution decomposition · multi-scenario comparison
 
 **Web extraction & ingestion**
-Playwright · httpx · extraction pipelines · dedupe + timeline building · strict source whitelisting · HTML artifacts for auditability
+Playwright · httpx · PRAW (Reddit) · YouTube Data API v3 · google-play-scraper · yt-dlp · multi-tier scraper fallback architectures · SSE streaming · extraction pipelines · dedupe + timeline building · strict source whitelisting · HTML artifacts for auditability
 
 **Data processing**
 Pandas · feature engineering · time-decay features · rule + heuristic layers · batch pipelines (CSV → process → validate → store) · deterministic processing for repeatability
@@ -53,10 +57,10 @@ Candidate generation (popularity · item-item similarity · collaborative filter
 Mapbox GL JS · vector tiles · geospatial aggregation · choropleths · polygon/multipolygon handling · EPSG:4326 schemas · exports (PNG/CSV) · shareable URLs
 
 **Frontend (when needed)**
-Next.js/React · Streamlit for rapid UIs · lightweight HTML/CSS for report rendering and previews
+Next.js/React · TypeScript · Tailwind CSS · Recharts · Streamlit for rapid UIs · lightweight HTML/CSS for report rendering and previews
 
 **Infra & ops (local-first → production-ready)**
-Docker + docker-compose · env management · background jobs/queues · logging · basic observability patterns · reproducible repo hygiene
+Docker + docker-compose · ARQ + Redis (background jobs) · Prometheus · Sentry · Alembic · env management · background jobs/queues · logging · basic observability patterns · reproducible repo hygiene
 
 **Testing & quality**
 pytest-style tests · contract tests for APIs · schema validation tests · golden files for deterministic generation · regression checks for prompt changes
@@ -81,13 +85,26 @@ pytest-style tests · contract tests for APIs · schema validation tests · gold
 
 ### 🤖 Agentic AI — Multi-Agent Systems & Orchestration
 
-> These are my two flagship **Agentic AI** products: production-grade platforms where autonomous agents collaborate across pipelines, enforce governance policies, and produce real artifacts — not just chat responses. Both are built with **LangGraph**, **FastAPI**, and enterprise-grade safety + audit layers.
+> These are my flagship **Agentic AI** products: production-grade platforms where autonomous agents collaborate across pipelines, enforce governance policies, and produce real artifacts — not just chat responses. Built with **LangGraph**, **FastAPI**, and enterprise-grade safety + audit layers.
 
 | Repo | What It Is |
 |------|------------|
 | [**pm-agent-os**](https://github.com/deepeshgupta12/pm-agent-os) | Full-stack agentic platform where specialised AI agents write product documents grounded in your team's actual evidence — PRDs, strategy memos, problem briefs, launch plans, and more. Agents are chained into multi-step pipelines with a review + approval workflow before publishing. A Policy Center enforces governance on what knowledge sources agents can use, with PII masking and an immutable audit log of every decision the system makes. |
 | [**AI-Mental-Wellbeing-Copilot-with-Safety-Governed-Multi-Agent-Architecture**](https://github.com/deepeshgupta12/AI-Mental-Wellbeing-Copilot-with-Safety-Governed-Multi-Agent-Architecture) | Production-grade AI mental health support platform built on a **27-agent orchestration pipeline** with safety-first design, enterprise governance, and personalized memory systems. Combines LangGraph-driven agent workflows, a FastAPI async backend, and a modern Next.js React frontend to deliver empathetic, context-aware mental wellbeing assistance with robust crisis detection and human oversight. |
-| [**wayfarer-ai**](https://github.com/deepeshgupta12/wayfarer-ai) | AI-powered travel planning and destination intelligence platform - Wayfarer is a full-stack application that uses agentic AI orchestration to help travellers research destinations, build personalised itineraries, compare cities, and monitor their active trips in real time. The system is built backend-first: every planning decision, enrichment step, and notification is driven by LangGraph agents running on a FastAPI backend, with a React frontend that consumes those results. |
+| [**wayfarer-ai**](https://github.com/deepeshgupta12/wayfarer-ai) | AI-powered travel planning and destination intelligence platform — Wayfarer is a full-stack application that uses agentic AI orchestration to help travellers research destinations, build personalised itineraries, compare cities, and monitor their active trips in real time. Every planning decision, enrichment step, and notification is driven by LangGraph agents running on a FastAPI backend, with a React frontend that consumes those results. |
+
+---
+
+### 🏠 Real Estate Intelligence (Pricing · Pain · Analytics)
+
+> A cluster of full-stack products built around real problems in the Indian property market — from pricing fair value to surfacing what buyers and renters actually complain about.
+
+| Repo | What It Is |
+|------|------------|
+| [**Pan-India-Price-Projection**](https://github.com/deepeshgupta12/Pan-India-Price-Projection) | Full-stack analytical workspace for estimating current fair asking prices and 1Y/3Y/5Y forward price projections for primary-market residential projects across India. Built on a six-factor data-driven pricing engine (specification quality, supply-demand, connectivity, developer premium, macro conditions, regulatory risk), multi-scenario analysis (bear/base/bull/custom), sensitivity sweeps across six key drivers, save/compare/export flows, and a 49-test unit suite. FastAPI backend + Next.js 16 frontend, Postgres-ready SQLite, fully config-driven with no hardcoded lookup tables. |
+| [**real-estate-pain-intelligence**](https://github.com/deepeshgupta12/real-estate-pain-intelligence) | AI-powered platform that scrapes public sources (Reddit, YouTube, App Stores, X/Twitter, review sites) for any Indian real estate brand, then runs a multi-agent LLM pipeline — extraction → taxonomy/clustering → root-cause hypothesis → competitor benchmarking → prioritization → action recommendations. Surfaces everything in a streaming console UI with semantic search (pgvector), human review queue, Notion sync, and CSV/JSON/PDF export. FastAPI + PostgreSQL + pgvector + Next.js 16 + ARQ background workers. |
+| [**geo-map-analytics**](https://github.com/deepeshgupta12/geo-map-analytics) | Developer-friendly geospatial analytics UI: city → micromarket → locality → roads → projects from Mapbox vector tiles, monthly metrics choropleths, pinned A/B comparisons, exports (PNG + CSV), shareable URLs. |
+| [**squareyards-rec-engine**](https://github.com/deepeshgupta12/squareyards-rec-engine) | Experiments for recommendation-driven discovery: ranking signals, shortlist logic, segment-driven recs, and practical "what should the user see next?" widgets. |
 
 ---
 
@@ -95,16 +112,7 @@ pytest-style tests · contract tests for APIs · schema validation tests · gold
 
 | Repo | What It Is |
 |------|------------|
-| [**squareyards-rec-engine**](https://github.com/deepeshgupta12/squareyards-rec-engine) | Experiments for recommendation-driven discovery: ranking signals, shortlist logic, segment-driven recs, and practical "what should the user see next?" widgets. |
 | [**personal-finance-copilot**](https://github.com/deepeshgupta12/personal-finance-copilot) | Local-first AI-assisted personal finance dashboard: ingests mock bank/UPI/credit card data, auto-categorizes spending, detects bad patterns, and generates a plain-language monthly money story + next actions. Built with FastAPI, SQLite, Pandas, scikit-learn, Jinja2, and the OpenAI API. |
-
----
-
-### 🗺️ Data & Geo Analytics (Decision Intelligence)
-
-| Repo | What It Is |
-|------|------------|
-| [**geo-map-analytics**](https://github.com/deepeshgupta12/geo-map-analytics) | Developer-friendly geospatial analytics UI: city → micromarket → locality → roads → projects from Mapbox vector tiles, monthly metrics choropleths, pinned A/B comparisons, exports (PNG + CSV), shareable URLs. |
 
 ---
 
@@ -139,6 +147,10 @@ pytest-style tests · contract tests for APIs · schema validation tests · gold
 **Better retrieval over "more tokens"** — chunking strategies, query rewriting, hybrid retrieval (lexical + vector), reranking, and confidence gating.
 
 **Evidence-backed "news/intelligence" pipelines** — extraction → claim detection → dedupe → timelines → human-readable narratives + auditable artifacts.
+
+**Pricing engines with real analytical depth** — six-factor data-driven models, scenario-based forward projections, sensitivity analysis, confidence scoring, and no-hardcode design where all parameters are DB-injected at runtime.
+
+**Consumer pain intelligence at scale** — multi-source scraping, multi-agent LLM pipelines, taxonomy clustering, root-cause hypothesis generation, and human-in-the-loop review queues.
 
 **Personalization loops that actually learn** — feedback-driven recommenders, session intent inference, segment-driven widgets, and "next best action" logic.
 
