@@ -2,7 +2,7 @@
 
 **Senior Product Manager** building AI + data products that ship, measure, and hold up in production.
 
-6+ years across **B2B · B2C · D2C · B2B2C** — marketplaces, data platforms, and internal tools. I turn messy, ambiguous problem spaces into crisp product bets with success metrics, then prototype the fastest path to *"does this work?"* before scaling.
+7 years across **B2B · B2C · D2C · B2B2C** — marketplaces, data platforms, and internal tools. I turn messy, ambiguous problem spaces into crisp product bets with success metrics, then prototype the fastest path to *"does this work?"* before scaling.
 
 **Core focus:** agentic AI systems · multi-agent orchestration · marketplace discovery · real-estate intelligence · evidence-grounded LLM systems (with evals) · recommendation engines · geo/data analytics · pricing engines · consumer pain intelligence · SEO/AEO content platforms
 
